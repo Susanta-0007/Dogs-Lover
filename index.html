@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loves to Dog</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    <div class="navbar">
+        <i class="fa-solid fa-dog"></i>
+        Dog's Lovers
+        <i class="fa-solid fa-heart"></i>
+    </div>
+    <p class="warning"><i class="fa-brands fa-creative-commons"></i> Wait few second it will takes some time to fetch
+        image from <a href="https://dog.ceo/dog-api/" target="_blank">Dog API</a></p>
+
+    <div class="container">
+        <form action="">
+            <select id="dog-breeds">
+                <option value="akita">Choose Breeds</option>
+            </select>
+
+            <button class="btn" id="btn" type="submit">Get Image</button>
+        </form>
+
+        <div id="flex">
+            <div id="breed-image" class="flex-center">
+            </div>
+            <div id="next" class="flex-center">
+                <a href="">Next</a>
+            </div>
+        </div>
+
+        <!-- <button>Download image</button> -->
+    </div>
+
+
+
+</body>
+<script src="./script.js"></script>
+
+</html>
